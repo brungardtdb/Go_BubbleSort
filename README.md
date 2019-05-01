@@ -1,1 +1,2 @@
 # Go_BubbleSort
+A program written in the Go programming language that sorts a splice (similar to an array) by looping through the splice and comparing each value to the previous value. If the next value in the splice is lower than the previous value, the values are swapped. This process continues until the smaller values "bubble up" to the top and the splice is sorted in order from least to greatest. 
