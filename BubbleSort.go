@@ -51,10 +51,7 @@ func bubbleSort(param []int) []int{
 			if(thisSlice[i + 1] < thisSlice[i]) {
 
 				// Swap items
-				temp1 := thisSlice[i + 1]
-				temp2 := thisSlice[i]
-				thisSlice[i + 1] = temp2
-				thisSlice[i] = temp1
+				thisSlice[i + 1],thisSlice[i] = thisSlice[i],thisSlice[i + 1]				
 
 				// Set Sentinal value to true if a swap is necessary
 				Sentinal = true
